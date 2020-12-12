@@ -189,3 +189,3614 @@ Processing by FoodsController#index as */*
 Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 1.2ms | Allocations: 1332)
 
 
+Started GET "/" for ::1 at 2020-12-12 07:48:42 -0600
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by FoodsController#index as HTML
+  [1m[36mFood Load (0.8ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 21ms (Views: 11.3ms | ActiveRecord: 8.7ms | Allocations: 4707)
+
+
+Started GET "/chips" for ::1 at 2020-12-12 07:48:49 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/chips"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/foods" for ::1 at 2020-12-12 07:48:55 -0600
+Processing by FoodsController#index as HTML
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms | Allocations: 1381)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 08:00:35 -0600
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by FoodsController#index as HTML
+  [1m[36mFood Load (0.8ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 16ms (Views: 7.3ms | ActiveRecord: 7.4ms | Allocations: 4707)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 08:37:38 -0600
+Processing by FoodsController#index as HTML
+  [1m[36mFood Load (0.8ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.8ms | Allocations: 1436)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 08:51:10 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (2.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 3.9ms | ActiveRecord: 2.2ms | Allocations: 1438)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 08:52:49 -0600
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.6ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 29ms (Views: 14.1ms | ActiveRecord: 13.4ms | Allocations: 4710)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 08:53:38 -0600
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.6ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 18ms (Views: 8.5ms | ActiveRecord: 8.0ms | Allocations: 4710)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 08:54:39 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.4ms | Allocations: 1349)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 09:00:55 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.9ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.9ms | Allocations: 1438)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 09:37:15 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (7.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 11ms (Views: 3.1ms | ActiveRecord: 7.1ms | Allocations: 1439)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 09:39:38 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.9ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.9ms | Allocations: 1331)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 11:00:39 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.5ms | Allocations: 1426)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 11:01:49 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.2ms | Allocations: 1350)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 11:04:39 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms | Allocations: 1331)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 11:06:07 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms | Allocations: 1331)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 11:06:32 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.3ms | Allocations: 1331)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 11:21:37 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.7ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.7ms | Allocations: 1426)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 11:21:53 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.5ms | Allocations: 1331)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 11:22:03 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.2ms | Allocations: 1331)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 11:22:22 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.4ms | Allocations: 1331)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 11:23:07 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.4ms | Allocations: 1331)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 11:23:14 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.3ms | Allocations: 1331)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 11:24:48 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.4ms | Allocations: 1331)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 11:27:46 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.9ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.9ms | Allocations: 1331)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 11:29:15 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.2ms | Allocations: 1331)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 11:29:29 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.9ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.9ms | Allocations: 1331)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 11:29:55 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.2ms | Allocations: 1331)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 11:42:27 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.7ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.7ms | Allocations: 1427)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 11:42:55 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (1.0ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 1.0ms | Allocations: 1331)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 11:56:07 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.6ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.6ms | Allocations: 1427)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 11:59:52 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms | Allocations: 1331)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 12:02:02 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms | Allocations: 1331)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 12:02:28 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms | Allocations: 1331)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 12:03:51 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.3ms | Allocations: 1331)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 12:04:36 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.4ms | Allocations: 1331)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 12:08:09 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.2ms | Allocations: 1331)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 12:08:44 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.3ms | Allocations: 1332)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 12:09:16 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.3ms | Allocations: 1331)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 12:10:58 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.2ms | Allocations: 1331)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 12:11:10 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms | Allocations: 1331)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 12:11:16 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.4ms | Allocations: 1331)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 12:12:42 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms | Allocations: 1331)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 12:12:50 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.3ms | Allocations: 1331)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 12:12:53 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.5ms | Allocations: 1331)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 12:13:22 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms | Allocations: 1331)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 12:13:48 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms | Allocations: 1331)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 12:14:16 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.8ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.8ms | Allocations: 1331)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 12:14:27 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"food"=>"Soda", "quantity"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1290)
+
+
+  
+NoMethodError (undefined method `permit' for "Soda":String):
+  
+app/controllers/foods_controller.rb:49:in `food_params'
+app/controllers/foods_controller.rb:18:in `create'
+Started GET "/foods" for ::1 at 2020-12-12 12:14:27 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.2ms | Allocations: 1330)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 12:15:13 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.3ms | Allocations: 1331)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 12:15:18 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms | Allocations: 1331)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 12:15:26 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms | Allocations: 1331)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 12:15:29 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"food"=>"Soda", "quantity"=>"1"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1276)
+
+
+  
+NoMethodError (undefined method `permit' for "Soda":String):
+  
+app/controllers/foods_controller.rb:49:in `food_params'
+app/controllers/foods_controller.rb:18:in `create'
+Started GET "/foods" for ::1 at 2020-12-12 12:15:29 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.3ms | Allocations: 1330)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 12:15:34 -0600
+Processing by FoodsController#index as HTML
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.2ms | Allocations: 1330)
+
+
+Started GET "/favicon.ico" for ::1 at 2020-12-12 12:15:34 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/foods" for ::1 at 2020-12-12 12:16:05 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.3ms | Allocations: 1365)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 12:16:08 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"food"=>"Soda", "quantity"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1304)
+
+
+  
+NoMethodError (undefined method `permit' for "Soda":String):
+  
+app/controllers/foods_controller.rb:49:in `food_params'
+app/controllers/foods_controller.rb:18:in `create'
+Started GET "/foods" for ::1 at 2020-12-12 12:16:08 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.3ms | Allocations: 1330)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 12:21:48 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (1.0ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 3.3ms | ActiveRecord: 1.0ms | Allocations: 1426)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 12:21:52 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"food"=>"donuts", "quantity"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1298)
+
+
+  
+NoMethodError (undefined method `permit' for "donuts":String):
+  
+app/controllers/foods_controller.rb:49:in `food_params'
+app/controllers/foods_controller.rb:18:in `create'
+Started GET "/foods" for ::1 at 2020-12-12 12:21:52 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms | Allocations: 1330)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 12:24:57 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"food"=>"donuts", "quantity"=>"2"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1333)
+
+
+  
+NoMethodError (undefined method `permit' for "donuts":String):
+  
+app/controllers/foods_controller.rb:48:in `food_params'
+app/controllers/foods_controller.rb:18:in `create'
+Started GET "/foods" for ::1 at 2020-12-12 12:24:57 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 17ms (Views: 6.3ms | ActiveRecord: 9.9ms | Allocations: 4070)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 12:25:46 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"food"=>"donuts", "quantity"=>"2"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1331)
+
+
+  
+NoMethodError (undefined method `permit' for "donuts":String):
+  
+app/controllers/foods_controller.rb:48:in `food_params'
+app/controllers/foods_controller.rb:18:in `create'
+Started GET "/foods" for ::1 at 2020-12-12 12:25:46 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 15ms (Views: 9.2ms | ActiveRecord: 4.9ms | Allocations: 3917)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 12:27:31 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"food"=>"donuts", "quantity"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1345)
+
+
+  
+NoMethodError (undefined method `permit' for "donuts":String):
+  
+app/controllers/foods_controller.rb:49:in `food_params'
+app/controllers/foods_controller.rb:19:in `create'
+Started GET "/foods" for ::1 at 2020-12-12 12:27:31 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 12ms (Views: 6.1ms | ActiveRecord: 5.1ms | Allocations: 3900)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 12:28:47 -0600
+Processing by FoodsController#index as HTML
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms | Allocations: 1329)
+
+
+Started GET "/favicon.ico" for ::1 at 2020-12-12 12:28:47 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/foods" for ::1 at 2020-12-12 12:42:17 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.7ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 15ms (Views: 13.6ms | ActiveRecord: 0.7ms | Allocations: 4207)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 12:43:07 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"food"=>"donuts", "quantity"=>"2"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1310)
+
+
+  
+NoMethodError (undefined method `permit' for "donuts":String):
+  
+app/controllers/foods_controller.rb:49:in `food_params'
+app/controllers/foods_controller.rb:19:in `create'
+Started GET "/foods" for ::1 at 2020-12-12 12:43:07 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.2ms | Allocations: 1330)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 12:43:47 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"food"=>"donuts", "quantity"=>"2"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1332)
+
+
+  
+NoMethodError (undefined method `permit' for "donuts":String):
+  
+app/controllers/foods_controller.rb:49:in `food_params'
+app/controllers/foods_controller.rb:19:in `create'
+Started GET "/foods" for ::1 at 2020-12-12 12:43:47 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 14ms (Views: 5.6ms | ActiveRecord: 7.9ms | Allocations: 3956)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 12:52:45 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (1.0ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 11ms (Views: 7.2ms | ActiveRecord: 1.0ms | Allocations: 4181)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 12:55:00 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.2ms | Allocations: 1331)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 12:55:13 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.3ms | Allocations: 1332)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 12:56:45 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.3ms | Allocations: 1332)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 12:56:45 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.5ms | Allocations: 1331)
+
+
+Started DELETE "/foods/2" for ::1 at 2020-12-12 12:56:51 -0600
+Processing by FoodsController#destroy as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mFood Load (0.9ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/foods_controller.rb:45:in `set_food'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:39:in `destroy'
+  [1m[36mFood Destroy (0.4ms)[0m  [1m[31mDELETE FROM "foods" WHERE "foods"."id" = $1[0m  [["id", 2]]
+  ↳ app/controllers/foods_controller.rb:39:in `destroy'
+  [1m[35m (1.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:39:in `destroy'
+Completed 204 No Content in 16ms (ActiveRecord: 3.2ms | Allocations: 3955)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 12:56:51 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.2ms | Allocations: 1230)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 12:57:40 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.3ms | Allocations: 1230)
+
+
+Started DELETE "/foods/4" for ::1 at 2020-12-12 12:57:45 -0600
+Processing by FoodsController#destroy as */*
+  Parameters: {"id"=>"4"}
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/foods_controller.rb:45:in `set_food'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:39:in `destroy'
+  [1m[36mFood Destroy (0.3ms)[0m  [1m[31mDELETE FROM "foods" WHERE "foods"."id" = $1[0m  [["id", 4]]
+  ↳ app/controllers/foods_controller.rb:39:in `destroy'
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:39:in `destroy'
+Completed 204 No Content in 9ms (ActiveRecord: 1.6ms | Allocations: 2407)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 12:57:45 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.2ms | Allocations: 1128)
+
+
+Started DELETE "/foods/3" for ::1 at 2020-12-12 12:57:46 -0600
+Processing by FoodsController#destroy as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/foods_controller.rb:45:in `set_food'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:39:in `destroy'
+  [1m[36mFood Destroy (0.3ms)[0m  [1m[31mDELETE FROM "foods" WHERE "foods"."id" = $1[0m  [["id", 3]]
+  ↳ app/controllers/foods_controller.rb:39:in `destroy'
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:39:in `destroy'
+Completed 204 No Content in 9ms (ActiveRecord: 1.7ms | Allocations: 2407)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 12:57:46 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.2ms | Allocations: 1027)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 12:57:52 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"food"=>"Bread", "quantity"=>"1"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1298)
+
+
+  
+NoMethodError (undefined method `permit' for "Bread":String):
+  
+app/controllers/foods_controller.rb:50:in `food_params'
+app/controllers/foods_controller.rb:19:in `create'
+Started GET "/foods" for ::1 at 2020-12-12 12:57:52 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.3ms | Allocations: 1026)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 12:59:17 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.5ms | Allocations: 1028)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:01:03 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms | Allocations: 1027)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:01:20 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms | Allocations: 1027)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:01:27 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"foods"=>"donuts", "quantity"=>"1", "food"=>{"quantity"=>"1"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:21:in `create'
+  [1m[36mFood Create (0.7ms)[0m  [1m[32mINSERT INTO "foods" ("quantity", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["quantity", 1], ["created_at", "2020-12-12 19:01:27.337662"], ["updated_at", "2020-12-12 19:01:27.337662"]]
+  ↳ app/controllers/foods_controller.rb:21:in `create'
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:21:in `create'
+Completed 201 Created in 6ms (Views: 0.7ms | ActiveRecord: 1.2ms | Allocations: 2679)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:01:27 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms | Allocations: 1122)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:01:58 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.2ms | Allocations: 1123)
+
+
+Started DELETE "/foods/7" for ::1 at 2020-12-12 13:02:01 -0600
+Processing by FoodsController#destroy as */*
+  Parameters: {"id"=>"7"}
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/foods_controller.rb:45:in `set_food'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:39:in `destroy'
+  [1m[36mFood Destroy (0.3ms)[0m  [1m[31mDELETE FROM "foods" WHERE "foods"."id" = $1[0m  [["id", 7]]
+  ↳ app/controllers/foods_controller.rb:39:in `destroy'
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:39:in `destroy'
+Completed 204 No Content in 5ms (ActiveRecord: 1.5ms | Allocations: 2406)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:02:01 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.2ms | Allocations: 1027)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:02:04 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"food"=>"", "quantity"=>"2", "foods"=>"donuts"}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 121)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: food):
+  
+app/controllers/foods_controller.rb:50:in `food_params'
+app/controllers/foods_controller.rb:19:in `create'
+Started GET "/foods" for ::1 at 2020-12-12 13:02:04 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.2ms | Allocations: 1026)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:02:05 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"foods"=>"", "quantity"=>0, "food"=>{"quantity"=>0}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:21:in `create'
+  [1m[36mFood Create (0.4ms)[0m  [1m[32mINSERT INTO "foods" ("quantity", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["quantity", 0], ["created_at", "2020-12-12 19:02:05.904086"], ["updated_at", "2020-12-12 19:02:05.904086"]]
+  ↳ app/controllers/foods_controller.rb:21:in `create'
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:21:in `create'
+Completed 201 Created in 5ms (Views: 0.4ms | ActiveRecord: 1.4ms | Allocations: 2465)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:02:05 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.3ms | Allocations: 1122)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:02:17 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms | Allocations: 1122)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:02:21 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"foods"=>"donuts", "quantity"=>"1", "food"=>{"quantity"=>"1"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:21:in `create'
+  [1m[36mFood Create (0.5ms)[0m  [1m[32mINSERT INTO "foods" ("quantity", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["quantity", 1], ["created_at", "2020-12-12 19:02:21.775849"], ["updated_at", "2020-12-12 19:02:21.775849"]]
+  ↳ app/controllers/foods_controller.rb:21:in `create'
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:21:in `create'
+Completed 201 Created in 5ms (Views: 0.4ms | ActiveRecord: 1.4ms | Allocations: 2465)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:02:21 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms | Allocations: 1218)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:02:36 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.5ms | Allocations: 1218)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:02:40 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"food"=>"", "quantity"=>"2", "foods"=>"donuts"}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 118)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: food):
+  
+app/controllers/foods_controller.rb:50:in `food_params'
+app/controllers/foods_controller.rb:19:in `create'
+Started GET "/foods" for ::1 at 2020-12-12 13:02:40 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.3ms | Allocations: 1217)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:02:50 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms | Allocations: 1218)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:02:53 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"food"=>"", "quantity"=>"2"}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 117)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: food):
+  
+app/controllers/foods_controller.rb:50:in `food_params'
+app/controllers/foods_controller.rb:19:in `create'
+Started GET "/foods" for ::1 at 2020-12-12 13:02:53 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.2ms | Allocations: 1217)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:05:34 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.5ms | Allocations: 1218)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:05:40 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"foods"=>"Cheese", "quantity"=>"1", "food"=>{"quantity"=>"1"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:21:in `create'
+  [1m[36mFood Create (0.4ms)[0m  [1m[32mINSERT INTO "foods" ("quantity", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["quantity", 1], ["created_at", "2020-12-12 19:05:40.938397"], ["updated_at", "2020-12-12 19:05:40.938397"]]
+  ↳ app/controllers/foods_controller.rb:21:in `create'
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:21:in `create'
+Completed 201 Created in 4ms (Views: 0.3ms | ActiveRecord: 0.8ms | Allocations: 2467)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:05:40 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.3ms | Allocations: 1313)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:05:44 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"foods"=>"", "quantity"=>0, "food"=>{"quantity"=>0}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:21:in `create'
+  [1m[36mFood Create (0.4ms)[0m  [1m[32mINSERT INTO "foods" ("quantity", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["quantity", 0], ["created_at", "2020-12-12 19:05:44.074389"], ["updated_at", "2020-12-12 19:05:44.074389"]]
+  ↳ app/controllers/foods_controller.rb:21:in `create'
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:21:in `create'
+Completed 201 Created in 5ms (Views: 0.3ms | ActiveRecord: 1.3ms | Allocations: 2465)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:05:44 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.2ms | Allocations: 1408)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:05:44 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"foods"=>"", "quantity"=>0, "food"=>{"quantity"=>0}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:21:in `create'
+  [1m[36mFood Create (0.4ms)[0m  [1m[32mINSERT INTO "foods" ("quantity", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["quantity", 0], ["created_at", "2020-12-12 19:05:44.978276"], ["updated_at", "2020-12-12 19:05:44.978276"]]
+  ↳ app/controllers/foods_controller.rb:21:in `create'
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:21:in `create'
+Completed 201 Created in 5ms (Views: 0.4ms | ActiveRecord: 1.4ms | Allocations: 2463)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:05:44 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.2ms | Allocations: 1503)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:05:45 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"foods"=>"", "quantity"=>0, "food"=>{"quantity"=>0}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:21:in `create'
+  [1m[36mFood Create (0.4ms)[0m  [1m[32mINSERT INTO "foods" ("quantity", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["quantity", 0], ["created_at", "2020-12-12 19:05:45.480938"], ["updated_at", "2020-12-12 19:05:45.480938"]]
+  ↳ app/controllers/foods_controller.rb:21:in `create'
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:21:in `create'
+Completed 201 Created in 5ms (Views: 0.3ms | ActiveRecord: 0.8ms | Allocations: 2465)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:05:45 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms | Allocations: 1598)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:05:50 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"foods"=>"donuts", "quantity"=>"1", "food"=>{"quantity"=>"1"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:21:in `create'
+  [1m[36mFood Create (0.4ms)[0m  [1m[32mINSERT INTO "foods" ("quantity", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["quantity", 1], ["created_at", "2020-12-12 19:05:50.050121"], ["updated_at", "2020-12-12 19:05:50.050121"]]
+  ↳ app/controllers/foods_controller.rb:21:in `create'
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:21:in `create'
+Completed 201 Created in 4ms (Views: 0.3ms | ActiveRecord: 1.2ms | Allocations: 2463)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:05:50 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.2ms | Allocations: 1693)
+
+
+Started DELETE "/foods/8" for ::1 at 2020-12-12 13:06:22 -0600
+Processing by FoodsController#destroy as */*
+  Parameters: {"id"=>"8"}
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/foods_controller.rb:45:in `set_food'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:39:in `destroy'
+  [1m[36mFood Destroy (0.3ms)[0m  [1m[31mDELETE FROM "foods" WHERE "foods"."id" = $1[0m  [["id", 8]]
+  ↳ app/controllers/foods_controller.rb:39:in `destroy'
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:39:in `destroy'
+Completed 204 No Content in 4ms (ActiveRecord: 1.4ms | Allocations: 2406)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:06:22 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.3ms | Allocations: 1598)
+
+
+Started DELETE "/foods/9" for ::1 at 2020-12-12 13:06:22 -0600
+Processing by FoodsController#destroy as */*
+  Parameters: {"id"=>"9"}
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/foods_controller.rb:45:in `set_food'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:39:in `destroy'
+  [1m[36mFood Destroy (0.3ms)[0m  [1m[31mDELETE FROM "foods" WHERE "foods"."id" = $1[0m  [["id", 9]]
+  ↳ app/controllers/foods_controller.rb:39:in `destroy'
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:39:in `destroy'
+Completed 204 No Content in 5ms (ActiveRecord: 1.5ms | Allocations: 2406)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:06:22 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms | Allocations: 1503)
+
+
+Started DELETE "/foods/10" for ::1 at 2020-12-12 13:06:22 -0600
+Processing by FoodsController#destroy as */*
+  Parameters: {"id"=>"10"}
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/foods_controller.rb:45:in `set_food'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:39:in `destroy'
+  [1m[36mFood Destroy (0.3ms)[0m  [1m[31mDELETE FROM "foods" WHERE "foods"."id" = $1[0m  [["id", 10]]
+  ↳ app/controllers/foods_controller.rb:39:in `destroy'
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:39:in `destroy'
+Completed 204 No Content in 5ms (ActiveRecord: 1.4ms | Allocations: 2406)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:06:22 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.2ms | Allocations: 1408)
+
+
+Started DELETE "/foods/11" for ::1 at 2020-12-12 13:06:22 -0600
+Processing by FoodsController#destroy as */*
+  Parameters: {"id"=>"11"}
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = $1 LIMIT $2[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/foods_controller.rb:45:in `set_food'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:39:in `destroy'
+  [1m[36mFood Destroy (0.3ms)[0m  [1m[31mDELETE FROM "foods" WHERE "foods"."id" = $1[0m  [["id", 11]]
+  ↳ app/controllers/foods_controller.rb:39:in `destroy'
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:39:in `destroy'
+Completed 204 No Content in 4ms (ActiveRecord: 1.4ms | Allocations: 2406)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:06:22 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.2ms | Allocations: 1313)
+
+
+Started DELETE "/foods/12" for ::1 at 2020-12-12 13:06:22 -0600
+Processing by FoodsController#destroy as */*
+  Parameters: {"id"=>"12"}
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/foods_controller.rb:45:in `set_food'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:39:in `destroy'
+  [1m[36mFood Destroy (0.3ms)[0m  [1m[31mDELETE FROM "foods" WHERE "foods"."id" = $1[0m  [["id", 12]]
+  ↳ app/controllers/foods_controller.rb:39:in `destroy'
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:39:in `destroy'
+Completed 204 No Content in 4ms (ActiveRecord: 1.4ms | Allocations: 2406)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:06:22 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.2ms | Allocations: 1218)
+
+
+Started DELETE "/foods/13" for ::1 at 2020-12-12 13:06:23 -0600
+Processing by FoodsController#destroy as */*
+  Parameters: {"id"=>"13"}
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/foods_controller.rb:45:in `set_food'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:39:in `destroy'
+  [1m[36mFood Destroy (0.4ms)[0m  [1m[31mDELETE FROM "foods" WHERE "foods"."id" = $1[0m  [["id", 13]]
+  ↳ app/controllers/foods_controller.rb:39:in `destroy'
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:39:in `destroy'
+Completed 204 No Content in 6ms (ActiveRecord: 1.2ms | Allocations: 2406)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:06:23 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.2ms | Allocations: 1122)
+
+
+Started DELETE "/foods/14" for ::1 at 2020-12-12 13:06:23 -0600
+Processing by FoodsController#destroy as */*
+  Parameters: {"id"=>"14"}
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = $1 LIMIT $2[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/foods_controller.rb:45:in `set_food'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:39:in `destroy'
+  [1m[36mFood Destroy (0.3ms)[0m  [1m[31mDELETE FROM "foods" WHERE "foods"."id" = $1[0m  [["id", 14]]
+  ↳ app/controllers/foods_controller.rb:39:in `destroy'
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:39:in `destroy'
+Completed 204 No Content in 4ms (ActiveRecord: 1.4ms | Allocations: 2406)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:06:23 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.3ms | Allocations: 1027)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:06:30 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"foods"=>"Bread", "quantity"=>"1", "food"=>{"quantity"=>"1"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:21:in `create'
+  [1m[36mFood Create (0.3ms)[0m  [1m[32mINSERT INTO "foods" ("quantity", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["quantity", 1], ["created_at", "2020-12-12 19:06:30.456461"], ["updated_at", "2020-12-12 19:06:30.456461"]]
+  ↳ app/controllers/foods_controller.rb:21:in `create'
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:21:in `create'
+Completed 201 Created in 5ms (Views: 0.4ms | ActiveRecord: 1.3ms | Allocations: 2465)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:06:30 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.2ms | Allocations: 1122)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:06:44 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"foods"=>"bread", "quantity"=>"1", "food"=>{"quantity"=>"1"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:21:in `create'
+  [1m[36mFood Create (0.4ms)[0m  [1m[32mINSERT INTO "foods" ("quantity", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["quantity", 1], ["created_at", "2020-12-12 19:06:44.368597"], ["updated_at", "2020-12-12 19:06:44.368597"]]
+  ↳ app/controllers/foods_controller.rb:21:in `create'
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:21:in `create'
+Completed 201 Created in 5ms (Views: 0.4ms | ActiveRecord: 1.3ms | Allocations: 2463)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:06:44 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms | Allocations: 1218)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:07:49 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"foods"=>"donuts", "quantity"=>"2", "food"=>{"quantity"=>"2"}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:21:in `create'
+  [1m[36mFood Create (0.3ms)[0m  [1m[32mINSERT INTO "foods" ("quantity", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["quantity", 2], ["created_at", "2020-12-12 19:07:49.327611"], ["updated_at", "2020-12-12 19:07:49.327611"]]
+  ↳ app/controllers/foods_controller.rb:21:in `create'
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:21:in `create'
+Completed 201 Created in 5ms (Views: 0.3ms | ActiveRecord: 1.4ms | Allocations: 2463)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:07:49 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.2ms | Allocations: 1313)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:08:44 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"foods"=>"donuts", "quantity"=>"1", "food"=>{"quantity"=>"1"}}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 4.5ms | Allocations: 1337)
+
+
+  
+NoMethodError (undefined method `permit' for "donuts":String):
+  
+app/controllers/foods_controller.rb:50:in `food_params'
+app/controllers/foods_controller.rb:19:in `create'
+Started GET "/foods" for ::1 at 2020-12-12 13:08:44 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 11ms (Views: 6.2ms | ActiveRecord: 4.1ms | Allocations: 3602)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:08:58 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"foods"=>"Cheese", "quantity"=>0, "food"=>{"quantity"=>0}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:21:in `create'
+  [1m[36mFood Create (0.3ms)[0m  [1m[32mINSERT INTO "foods" ("quantity", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["quantity", 0], ["created_at", "2020-12-12 19:08:58.383985"], ["updated_at", "2020-12-12 19:08:58.383985"]]
+  ↳ app/controllers/foods_controller.rb:21:in `create'
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:21:in `create'
+Completed 201 Created in 11ms (Views: 0.6ms | ActiveRecord: 5.7ms | Allocations: 4798)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:08:58 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.4ms | Allocations: 1422)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:09:02 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"foods"=>"Cheese", "quantity"=>"2", "food"=>{"quantity"=>"2"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:21:in `create'
+  [1m[36mFood Create (0.4ms)[0m  [1m[32mINSERT INTO "foods" ("quantity", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["quantity", 2], ["created_at", "2020-12-12 19:09:02.611367"], ["updated_at", "2020-12-12 19:09:02.611367"]]
+  ↳ app/controllers/foods_controller.rb:21:in `create'
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:21:in `create'
+Completed 201 Created in 5ms (Views: 0.3ms | ActiveRecord: 0.9ms | Allocations: 2463)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:09:02 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms | Allocations: 1503)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:09:52 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms | Allocations: 1503)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:09:56 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"food"=>"", "quantity"=>"1", "foods"=>"donuts"}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 118)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: food):
+  
+app/controllers/foods_controller.rb:50:in `food_params'
+app/controllers/foods_controller.rb:19:in `create'
+Started GET "/foods" for ::1 at 2020-12-12 13:09:56 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.5ms | Allocations: 1502)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:10:10 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms | Allocations: 1504)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:10:17 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"foods"=>"", "quantity"=>"1", "food"=>"donuts"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1299)
+
+
+  
+NoMethodError (undefined method `permit' for "donuts":String):
+  
+app/controllers/foods_controller.rb:50:in `food_params'
+app/controllers/foods_controller.rb:19:in `create'
+Started GET "/foods" for ::1 at 2020-12-12 13:10:17 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.3ms | Allocations: 1502)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:10:54 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms | Allocations: 1503)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:10:59 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"foods"=>"donuts", "quantity"=>"1", "food"=>"donuts"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1299)
+
+
+  
+NoMethodError (undefined method `permit' for "donuts":String):
+  
+app/controllers/foods_controller.rb:50:in `food_params'
+app/controllers/foods_controller.rb:19:in `create'
+Started GET "/foods" for ::1 at 2020-12-12 13:10:59 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.3ms | Allocations: 1502)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:11:20 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"foods"=>"donuts", "quantity"=>"1", "food"=>{"quantity"=>"1"}}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 2.2ms | Allocations: 1337)
+
+
+  
+NoMethodError (undefined method `permit' for "donuts":String):
+  
+app/controllers/foods_controller.rb:50:in `food_params'
+app/controllers/foods_controller.rb:19:in `create'
+Started GET "/foods" for ::1 at 2020-12-12 13:11:20 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 13ms (Views: 9.1ms | ActiveRecord: 3.5ms | Allocations: 3792)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:16:27 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 19ms (Views: 9.2ms | ActiveRecord: 7.7ms | Allocations: 4376)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:16:33 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"foods"=>"pizza", "quantity"=>"1", "food"=>{"quantity"=>"1"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:20:in `create'
+  [1m[36mFood Create (0.3ms)[0m  [1m[32mINSERT INTO "foods" ("quantity", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["quantity", 1], ["created_at", "2020-12-12 19:16:33.278309"], ["updated_at", "2020-12-12 19:16:33.278309"]]
+  ↳ app/controllers/foods_controller.rb:20:in `create'
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:20:in `create'
+Completed 201 Created in 5ms (Views: 0.6ms | ActiveRecord: 1.2ms | Allocations: 2522)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:16:33 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms | Allocations: 1598)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:17:05 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.3ms | Allocations: 1598)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:17:10 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"foods"=>"", "quantity"=>"1", "food"=>{"quantity"=>"1"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:20:in `create'
+  [1m[36mFood Create (0.3ms)[0m  [1m[32mINSERT INTO "foods" ("quantity", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["quantity", 1], ["created_at", "2020-12-12 19:17:10.493515"], ["updated_at", "2020-12-12 19:17:10.493515"]]
+  ↳ app/controllers/foods_controller.rb:20:in `create'
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:20:in `create'
+Completed 201 Created in 4ms (Views: 0.3ms | ActiveRecord: 1.1ms | Allocations: 2463)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:17:10 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.4ms | Allocations: 1693)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:18:39 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.3ms | Allocations: 1693)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:18:42 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"food"=>"donuts", "quantity"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1298)
+
+
+  
+NoMethodError (undefined method `permit' for "donuts":String):
+  
+app/controllers/foods_controller.rb:49:in `food_params'
+app/controllers/foods_controller.rb:18:in `create'
+Started GET "/foods" for ::1 at 2020-12-12 13:18:42 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms | Allocations: 1692)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:19:37 -0600
+Processing by FoodsController#index as HTML
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms | Allocations: 1691)
+
+
+Started GET "/favicon.ico" for ::1 at 2020-12-12 13:19:37 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/foods" for ::1 at 2020-12-12 13:19:56 -0600
+Processing by FoodsController#index as HTML
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.3ms | Allocations: 1690)
+
+
+Started GET "/favicon.ico" for ::1 at 2020-12-12 13:19:57 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/foods" for ::1 at 2020-12-12 13:20:09 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.4ms | Allocations: 1692)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:20:13 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"food"=>"donuts", "quantity"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1297)
+
+
+  
+NoMethodError (undefined method `permit' for "donuts":String):
+  
+app/controllers/foods_controller.rb:49:in `food_params'
+app/controllers/foods_controller.rb:18:in `create'
+Started GET "/foods" for ::1 at 2020-12-12 13:20:13 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.3ms | Allocations: 1692)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:21:21 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.3ms | Allocations: 1693)
+
+
+Started GET "/food" for ::1 at 2020-12-12 13:25:54 -0600
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/food"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/foods" for ::1 at 2020-12-12 13:25:57 -0600
+Processing by FoodsController#index as HTML
+  [1m[36mFood Load (1.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 29ms (Views: 14.7ms | ActiveRecord: 11.4ms | Allocations: 5154)
+
+
+Started GET "/" for ::1 at 2020-12-12 13:26:40 -0600
+Processing by FoodsController#index as HTML
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.4ms | Allocations: 1710)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:26:57 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.4ms | Allocations: 1713)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:27:31 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"food"=>"Canned Veggie", "quantity"=>"2"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1311)
+
+
+  
+NoMethodError (undefined method `permit' for "Canned Veggie":String):
+  
+app/controllers/foods_controller.rb:49:in `food_params'
+app/controllers/foods_controller.rb:18:in `create'
+Started GET "/foods" for ::1 at 2020-12-12 13:27:31 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.3ms | Allocations: 1692)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:29:06 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.4ms | Allocations: 1693)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:29:12 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"foods"=>"", "quantity"=>"1", "food"=>"fruit"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1298)
+
+
+  
+NoMethodError (undefined method `permit' for "fruit":String):
+  
+app/controllers/foods_controller.rb:49:in `food_params'
+app/controllers/foods_controller.rb:18:in `create'
+Started GET "/foods" for ::1 at 2020-12-12 13:29:12 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.3ms | Allocations: 1692)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:29:25 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.3ms | Allocations: 1711)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:31:04 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.5ms | Allocations: 1693)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:31:07 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"food"=>"", "quantity"=>0}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 120)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: food):
+  
+app/controllers/foods_controller.rb:49:in `food_params'
+app/controllers/foods_controller.rb:18:in `create'
+Started GET "/foods" for ::1 at 2020-12-12 13:31:07 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.3ms | Allocations: 1692)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:31:11 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"food"=>"donuts", "quantity"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1297)
+
+
+  
+NoMethodError (undefined method `permit' for "donuts":String):
+  
+app/controllers/foods_controller.rb:49:in `food_params'
+app/controllers/foods_controller.rb:18:in `create'
+Started GET "/foods" for ::1 at 2020-12-12 13:31:11 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.3ms | Allocations: 1692)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:31:45 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"food"=>"French Fries", "quantity"=>"3"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1297)
+
+
+  
+NoMethodError (undefined method `permit' for "French Fries":String):
+  
+app/controllers/foods_controller.rb:49:in `food_params'
+app/controllers/foods_controller.rb:18:in `create'
+Started GET "/foods" for ::1 at 2020-12-12 13:31:45 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.4ms | Allocations: 1692)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:32:14 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.3ms | Allocations: 1693)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:32:18 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"food"=>"donuts", "quantity"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1296)
+
+
+  
+NoMethodError (undefined method `permit' for "donuts":String):
+  
+app/controllers/foods_controller.rb:49:in `food_params'
+app/controllers/foods_controller.rb:18:in `create'
+Started GET "/foods" for ::1 at 2020-12-12 13:32:18 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.2ms | Allocations: 1692)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:33:50 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms | Allocations: 1694)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:34:24 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms | Allocations: 1693)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:36:30 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"food"=>"Chicken", "quantity"=>"12"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1297)
+
+
+  
+NoMethodError (undefined method `permit' for "Chicken":String):
+  
+app/controllers/foods_controller.rb:49:in `food_params'
+app/controllers/foods_controller.rb:18:in `create'
+Started GET "/foods" for ::1 at 2020-12-12 13:36:30 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.4ms | Allocations: 1692)
+
+
+Started DELETE "/foods/15" for ::1 at 2020-12-12 13:37:47 -0600
+Processing by FoodsController#destroy as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = $1 LIMIT $2[0m  [["id", 15], ["LIMIT", 1]]
+  ↳ app/controllers/foods_controller.rb:44:in `set_food'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:38:in `destroy'
+  [1m[36mFood Destroy (0.3ms)[0m  [1m[31mDELETE FROM "foods" WHERE "foods"."id" = $1[0m  [["id", 15]]
+  ↳ app/controllers/foods_controller.rb:38:in `destroy'
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:38:in `destroy'
+Completed 204 No Content in 11ms (ActiveRecord: 1.4ms | Allocations: 3954)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:37:47 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms | Allocations: 1598)
+
+
+Started DELETE "/foods/16" for ::1 at 2020-12-12 13:37:49 -0600
+Processing by FoodsController#destroy as */*
+  Parameters: {"id"=>"16"}
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = $1 LIMIT $2[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ app/controllers/foods_controller.rb:44:in `set_food'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:38:in `destroy'
+  [1m[36mFood Destroy (0.3ms)[0m  [1m[31mDELETE FROM "foods" WHERE "foods"."id" = $1[0m  [["id", 16]]
+  ↳ app/controllers/foods_controller.rb:38:in `destroy'
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:38:in `destroy'
+Completed 204 No Content in 4ms (ActiveRecord: 1.4ms | Allocations: 2406)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:37:49 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.2ms | Allocations: 1503)
+
+
+Started DELETE "/foods/17" for ::1 at 2020-12-12 13:37:50 -0600
+Processing by FoodsController#destroy as */*
+  Parameters: {"id"=>"17"}
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = $1 LIMIT $2[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/foods_controller.rb:44:in `set_food'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:38:in `destroy'
+  [1m[36mFood Destroy (0.3ms)[0m  [1m[31mDELETE FROM "foods" WHERE "foods"."id" = $1[0m  [["id", 17]]
+  ↳ app/controllers/foods_controller.rb:38:in `destroy'
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:38:in `destroy'
+Completed 204 No Content in 5ms (ActiveRecord: 1.6ms | Allocations: 2406)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:37:50 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.2ms | Allocations: 1408)
+
+
+Started DELETE "/foods/18" for ::1 at 2020-12-12 13:37:50 -0600
+Processing by FoodsController#destroy as */*
+  Parameters: {"id"=>"18"}
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = $1 LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  ↳ app/controllers/foods_controller.rb:44:in `set_food'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:38:in `destroy'
+  [1m[36mFood Destroy (0.3ms)[0m  [1m[31mDELETE FROM "foods" WHERE "foods"."id" = $1[0m  [["id", 18]]
+  ↳ app/controllers/foods_controller.rb:38:in `destroy'
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:38:in `destroy'
+Completed 204 No Content in 7ms (ActiveRecord: 1.4ms | Allocations: 2407)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:37:50 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.2ms | Allocations: 1313)
+
+
+Started DELETE "/foods/19" for ::1 at 2020-12-12 13:37:50 -0600
+Processing by FoodsController#destroy as */*
+  Parameters: {"id"=>"19"}
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = $1 LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ app/controllers/foods_controller.rb:44:in `set_food'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:38:in `destroy'
+  [1m[36mFood Destroy (0.3ms)[0m  [1m[31mDELETE FROM "foods" WHERE "foods"."id" = $1[0m  [["id", 19]]
+  ↳ app/controllers/foods_controller.rb:38:in `destroy'
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:38:in `destroy'
+Completed 204 No Content in 4ms (ActiveRecord: 1.4ms | Allocations: 2406)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:37:50 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.3ms | Allocations: 1219)
+
+
+Started DELETE "/foods/20" for ::1 at 2020-12-12 13:37:51 -0600
+Processing by FoodsController#destroy as */*
+  Parameters: {"id"=>"20"}
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = $1 LIMIT $2[0m  [["id", 20], ["LIMIT", 1]]
+  ↳ app/controllers/foods_controller.rb:44:in `set_food'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:38:in `destroy'
+  [1m[36mFood Destroy (0.3ms)[0m  [1m[31mDELETE FROM "foods" WHERE "foods"."id" = $1[0m  [["id", 20]]
+  ↳ app/controllers/foods_controller.rb:38:in `destroy'
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:38:in `destroy'
+Completed 204 No Content in 4ms (ActiveRecord: 0.9ms | Allocations: 2406)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:37:51 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.2ms | Allocations: 1123)
+
+
+Started DELETE "/foods/21" for ::1 at 2020-12-12 13:37:51 -0600
+Processing by FoodsController#destroy as */*
+  Parameters: {"id"=>"21"}
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/foods_controller.rb:44:in `set_food'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:38:in `destroy'
+  [1m[36mFood Destroy (0.3ms)[0m  [1m[31mDELETE FROM "foods" WHERE "foods"."id" = $1[0m  [["id", 21]]
+  ↳ app/controllers/foods_controller.rb:38:in `destroy'
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:38:in `destroy'
+Completed 204 No Content in 4ms (ActiveRecord: 1.3ms | Allocations: 2406)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:37:51 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms | Allocations: 1027)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:38:23 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"food"=>"Turkey", "quantity"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1296)
+
+
+  
+NoMethodError (undefined method `permit' for "Turkey":String):
+  
+app/controllers/foods_controller.rb:49:in `food_params'
+app/controllers/foods_controller.rb:18:in `create'
+Started GET "/foods" for ::1 at 2020-12-12 13:38:23 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.2ms | Allocations: 1026)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:40:52 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"food"=>"donuts", "quantity"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1331)
+
+
+  
+NoMethodError (undefined method `permit' for "donuts":String):
+  
+app/controllers/foods_controller.rb:49:in `food_params'
+app/controllers/foods_controller.rb:18:in `create'
+Started GET "/foods" for ::1 at 2020-12-12 13:40:53 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 14ms (Views: 8.9ms | ActiveRecord: 4.9ms | Allocations: 3628)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:42:07 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 13ms (Views: 5.9ms | ActiveRecord: 6.1ms | Allocations: 3900)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:42:08 -0600
+Processing by FoodsController#index as HTML
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.2ms | Allocations: 1025)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:42:13 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"food"=>"donuts", "quantity"=>"2"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1297)
+
+
+  
+NoMethodError (undefined method `permit' for "donuts":String):
+  
+app/controllers/foods_controller.rb:49:in `food_params'
+app/controllers/foods_controller.rb:18:in `create'
+Started GET "/foods" for ::1 at 2020-12-12 13:42:13 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.6ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.6ms | Allocations: 1026)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:42:33 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.3ms | Allocations: 1027)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:42:56 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.4ms | Allocations: 1028)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:43:00 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"food"=>"donuts", "quantity"=>"2"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1296)
+
+
+  
+NoMethodError (undefined method `permit' for "donuts":String):
+  
+app/controllers/foods_controller.rb:49:in `food_params'
+app/controllers/foods_controller.rb:18:in `create'
+Started GET "/foods" for ::1 at 2020-12-12 13:43:00 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.4ms | Allocations: 1026)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:43:47 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"food"=>"donuts", "quantity"=>"1"}
+Completed 500 Internal Server Error in 86ms (ActiveRecord: 0.0ms | Allocations: 59927)
+
+
+  
+NameError (undefined local variable or method `food_params' for #<FoodsController:0x00007fdf1e274de0>
+Did you mean?  food_path):
+  
+app/controllers/foods_controller.rb:18:in `create'
+Started GET "/foods" for ::1 at 2020-12-12 13:43:47 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 11ms (Views: 5.4ms | ActiveRecord: 5.4ms | Allocations: 3644)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:44:28 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"food"=>"donuts", "quantity"=>"1"}
+Completed 500 Internal Server Error in 75ms (ActiveRecord: 0.0ms | Allocations: 59884)
+
+
+  
+NameError (undefined local variable or method `food_params' for #<FoodsController:0x00007fdf1e2a6818>
+Did you mean?  food_path):
+  
+app/controllers/foods_controller.rb:18:in `create'
+Started GET "/foods" for ::1 at 2020-12-12 13:44:28 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 13ms (Views: 7.4ms | ActiveRecord: 5.5ms | Allocations: 3618)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:44:41 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"food"=>"", "quantity"=>0}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 151)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: food):
+  
+app/controllers/foods_controller.rb:49:in `food_params'
+app/controllers/foods_controller.rb:18:in `create'
+Started GET "/foods" for ::1 at 2020-12-12 13:44:41 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 11ms (Views: 5.8ms | ActiveRecord: 4.9ms | Allocations: 3612)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:44:51 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"food"=>"Pizza", "quantity"=>"2"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1298)
+
+
+  
+NoMethodError (undefined method `permit' for "Pizza":String):
+  
+app/controllers/foods_controller.rb:49:in `food_params'
+app/controllers/foods_controller.rb:18:in `create'
+Started GET "/foods" for ::1 at 2020-12-12 13:44:51 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.3ms | Allocations: 1026)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:46:22 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"food"=>"donuts", "quantity"=>"2"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1331)
+
+
+  
+NoMethodError (undefined method `permit' for "donuts":String):
+  
+app/controllers/foods_controller.rb:52:in `food_params'
+app/controllers/foods_controller.rb:14:in `create'
+Started GET "/foods" for ::1 at 2020-12-12 13:46:23 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.6ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 12ms (Views: 5.7ms | ActiveRecord: 5.4ms | Allocations: 3628)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:49:52 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.4ms | Allocations: 1027)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:51:16 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.3ms | Allocations: 1027)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:51:21 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"food"=>"ddddddd", "quantity"=>"2"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1296)
+
+
+  
+NoMethodError (undefined method `permit' for "ddddddd":String):
+  
+app/controllers/foods_controller.rb:52:in `food_params'
+app/controllers/foods_controller.rb:14:in `create'
+Started GET "/foods" for ::1 at 2020-12-12 13:51:22 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.2ms | Allocations: 1026)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:53:39 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.7ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.7ms | Allocations: 1027)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:53:39 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (1.1ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 1.1ms | Allocations: 1027)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:53:42 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.5ms | Allocations: 1027)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:53:44 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.7ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.7ms | Allocations: 1027)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:53:51 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"food"=>"Pizza", "quantity"=>"3"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1296)
+
+
+  
+NoMethodError (undefined method `permit' for "Pizza":String):
+  
+app/controllers/foods_controller.rb:52:in `food_params'
+app/controllers/foods_controller.rb:14:in `create'
+Started GET "/foods" for ::1 at 2020-12-12 13:53:51 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.6ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.6ms | Allocations: 1026)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:55:35 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.3ms | Allocations: 1027)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:55:40 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"name"=>"Pizza", "quantity"=>"2", "food"=>{"name"=>"Pizza", "quantity"=>"2"}}
+[31mUnpermitted parameter: :name[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[36mFood Create (0.5ms)[0m  [1m[32mINSERT INTO "foods" ("quantity", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["quantity", 2], ["created_at", "2020-12-12 19:55:40.717330"], ["updated_at", "2020-12-12 19:55:40.717330"]]
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+Completed 201 Created in 5ms (Views: 0.6ms | ActiveRecord: 0.9ms | Allocations: 2708)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:55:40 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.2ms | Allocations: 1122)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:56:05 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.6ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.6ms | Allocations: 1122)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:56:10 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"name"=>"Banana", "quantity"=>"6", "food"=>{"name"=>"Banana", "quantity"=>"6"}}
+[31mUnpermitted parameter: :name[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[36mFood Create (0.3ms)[0m  [1m[32mINSERT INTO "foods" ("quantity", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["quantity", 6], ["created_at", "2020-12-12 19:56:10.843640"], ["updated_at", "2020-12-12 19:56:10.843640"]]
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+Completed 201 Created in 4ms (Views: 0.3ms | ActiveRecord: 1.1ms | Allocations: 2493)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:56:10 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.2ms | Allocations: 1218)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:56:44 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.4ms | Allocations: 1218)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:57:08 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"name"=>"Pizza", "quantity"=>"2", "food"=>{"name"=>"Pizza", "quantity"=>"2"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[36mFood Create (0.3ms)[0m  [1m[32mINSERT INTO "foods" ("name", "quantity", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Pizza"], ["quantity", 2], ["created_at", "2020-12-12 19:57:08.958857"], ["updated_at", "2020-12-12 19:57:08.958857"]]
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+Completed 201 Created in 13ms (Views: 0.5ms | ActiveRecord: 5.0ms | Allocations: 4862)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:57:08 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms | Allocations: 1333)
+
+
+Started DELETE "/foods/24" for ::1 at 2020-12-12 13:57:11 -0600
+Processing by FoodsController#destroy as */*
+  Parameters: {"id"=>"24"}
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ app/controllers/foods_controller.rb:47:in `set_food'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[36mFood Destroy (0.3ms)[0m  [1m[31mDELETE FROM "foods" WHERE "foods"."id" = $1[0m  [["id", 24]]
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+Completed 204 No Content in 5ms (ActiveRecord: 1.4ms | Allocations: 2518)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:57:11 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms | Allocations: 1218)
+
+
+Started DELETE "/foods/23" for ::1 at 2020-12-12 13:57:12 -0600
+Processing by FoodsController#destroy as */*
+  Parameters: {"id"=>"23"}
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/controllers/foods_controller.rb:47:in `set_food'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[36mFood Destroy (0.3ms)[0m  [1m[31mDELETE FROM "foods" WHERE "foods"."id" = $1[0m  [["id", 23]]
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+Completed 204 No Content in 4ms (ActiveRecord: 1.3ms | Allocations: 2406)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:57:12 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.2ms | Allocations: 1122)
+
+
+Started DELETE "/foods/22" for ::1 at 2020-12-12 13:57:12 -0600
+Processing by FoodsController#destroy as */*
+  Parameters: {"id"=>"22"}
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/foods_controller.rb:47:in `set_food'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[36mFood Destroy (0.3ms)[0m  [1m[31mDELETE FROM "foods" WHERE "foods"."id" = $1[0m  [["id", 22]]
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+Completed 204 No Content in 4ms (ActiveRecord: 1.3ms | Allocations: 2406)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:57:12 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.2ms | Allocations: 1027)
+
+
+Started DELETE "/foods/5" for ::1 at 2020-12-12 13:57:13 -0600
+Processing by FoodsController#destroy as */*
+  Parameters: {"id"=>"5"}
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/foods_controller.rb:47:in `set_food'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[36mFood Destroy (0.3ms)[0m  [1m[31mDELETE FROM "foods" WHERE "foods"."id" = $1[0m  [["id", 5]]
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+Completed 204 No Content in 4ms (ActiveRecord: 1.4ms | Allocations: 2407)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:57:13 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.2ms | Allocations: 926)
+
+
+Started DELETE "/foods/1" for ::1 at 2020-12-12 13:57:15 -0600
+Processing by FoodsController#destroy as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/foods_controller.rb:47:in `set_food'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[36mFood Destroy (0.3ms)[0m  [1m[31mDELETE FROM "foods" WHERE "foods"."id" = $1[0m  [["id", 1]]
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+Completed 204 No Content in 5ms (ActiveRecord: 1.4ms | Allocations: 2407)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:57:15 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.2ms | Allocations: 825)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:57:19 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"name"=>"Cheese", "quantity"=>"1", "food"=>{"name"=>"Cheese", "quantity"=>"1"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[36mFood Create (0.3ms)[0m  [1m[32mINSERT INTO "foods" ("name", "quantity", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Cheese"], ["quantity", 1], ["created_at", "2020-12-12 19:57:19.122704"], ["updated_at", "2020-12-12 19:57:19.122704"]]
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+Completed 201 Created in 4ms (Views: 0.4ms | ActiveRecord: 1.2ms | Allocations: 2497)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:57:19 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.4ms | Allocations: 926)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:57:25 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"name"=>"Bread", "quantity"=>"2", "food"=>{"name"=>"Bread", "quantity"=>"2"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[36mFood Create (0.3ms)[0m  [1m[32mINSERT INTO "foods" ("name", "quantity", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Bread"], ["quantity", 2], ["created_at", "2020-12-12 19:57:25.746643"], ["updated_at", "2020-12-12 19:57:25.746643"]]
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+Completed 201 Created in 5ms (Views: 0.4ms | ActiveRecord: 1.1ms | Allocations: 2495)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:57:25 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.3ms | Allocations: 1027)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:57:32 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"name"=>"Apples", "quantity"=>"5", "food"=>{"name"=>"Apples", "quantity"=>"5"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[36mFood Create (0.3ms)[0m  [1m[32mINSERT INTO "foods" ("name", "quantity", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Apples"], ["quantity", 5], ["created_at", "2020-12-12 19:57:32.298763"], ["updated_at", "2020-12-12 19:57:32.298763"]]
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+Completed 201 Created in 4ms (Views: 0.4ms | ActiveRecord: 1.1ms | Allocations: 2493)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:57:32 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.3ms | Allocations: 1128)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:57:41 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"name"=>"Bacon", "quantity"=>"25", "food"=>{"name"=>"Bacon", "quantity"=>"25"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[36mFood Create (0.5ms)[0m  [1m[32mINSERT INTO "foods" ("name", "quantity", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Bacon"], ["quantity", 25], ["created_at", "2020-12-12 19:57:41.929877"], ["updated_at", "2020-12-12 19:57:41.929877"]]
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+Completed 201 Created in 5ms (Views: 0.5ms | ActiveRecord: 1.4ms | Allocations: 2495)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:57:41 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.4ms | Allocations: 1230)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 13:57:56 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"name"=>"Cucumbers", "quantity"=>"5", "food"=>{"name"=>"Cucumbers", "quantity"=>"5"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[36mFood Create (0.3ms)[0m  [1m[32mINSERT INTO "foods" ("name", "quantity", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Cucumbers"], ["quantity", 5], ["created_at", "2020-12-12 19:57:56.281026"], ["updated_at", "2020-12-12 19:57:56.281026"]]
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+Completed 201 Created in 4ms (Views: 0.4ms | ActiveRecord: 1.2ms | Allocations: 2493)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 13:57:56 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms | Allocations: 1331)
+
+
+Started DELETE "/foods/25" for ::1 at 2020-12-12 14:18:07 -0600
+Processing by FoodsController#destroy as */*
+  Parameters: {"id"=>"25"}
+  [1m[36mFood Load (0.7ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/foods_controller.rb:47:in `set_food'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[36mFood Destroy (0.6ms)[0m  [1m[31mDELETE FROM "foods" WHERE "foods"."id" = $1[0m  [["id", 25]]
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+Completed 204 No Content in 7ms (ActiveRecord: 2.3ms | Allocations: 2528)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 14:18:08 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms | Allocations: 1231)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 14:19:44 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.4ms | Allocations: 1230)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 14:20:01 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"name"=>"Pizza", "quantity"=>"4", "food"=>{"name"=>"Pizza", "quantity"=>"4"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[36mFood Create (0.6ms)[0m  [1m[32mINSERT INTO "foods" ("name", "quantity", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Pizza"], ["quantity", 4], ["created_at", "2020-12-12 20:20:01.050457"], ["updated_at", "2020-12-12 20:20:01.050457"]]
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+Completed 201 Created in 5ms (Views: 0.6ms | ActiveRecord: 1.1ms | Allocations: 2495)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 14:20:01 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms | Allocations: 1331)
+
+
+Started DELETE "/foods/28" for ::1 at 2020-12-12 14:20:04 -0600
+Processing by FoodsController#destroy as */*
+  Parameters: {"id"=>"28"}
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/controllers/foods_controller.rb:47:in `set_food'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[36mFood Destroy (0.3ms)[0m  [1m[31mDELETE FROM "foods" WHERE "foods"."id" = $1[0m  [["id", 28]]
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+Completed 204 No Content in 5ms (ActiveRecord: 1.6ms | Allocations: 2407)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 14:20:05 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.2ms | Allocations: 1230)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 14:20:19 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.2ms | Allocations: 1230)
+
+
+Started DELETE "/foods/30" for ::1 at 2020-12-12 14:21:03 -0600
+Processing by FoodsController#destroy as */*
+  Parameters: {"id"=>"30"}
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/controllers/foods_controller.rb:47:in `set_food'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[36mFood Destroy (0.3ms)[0m  [1m[31mDELETE FROM "foods" WHERE "foods"."id" = $1[0m  [["id", 30]]
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+Completed 204 No Content in 4ms (ActiveRecord: 1.4ms | Allocations: 2407)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 14:21:03 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.2ms | Allocations: 1128)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 14:21:29 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.6ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.6ms | Allocations: 1128)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 14:21:43 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.4ms | Allocations: 1128)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 14:26:12 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.2ms | Allocations: 1128)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 14:26:17 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.3ms | Allocations: 1128)
+
+
+Started DELETE "/foods/29" for ::1 at 2020-12-12 14:26:32 -0600
+Processing by FoodsController#destroy as */*
+  Parameters: {"id"=>"29"}
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/controllers/foods_controller.rb:47:in `set_food'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[36mFood Destroy (0.3ms)[0m  [1m[31mDELETE FROM "foods" WHERE "foods"."id" = $1[0m  [["id", 29]]
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+Completed 204 No Content in 5ms (ActiveRecord: 1.5ms | Allocations: 2407)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 14:26:32 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.2ms | Allocations: 1027)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 14:30:20 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.3ms | Allocations: 1027)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 14:40:04 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.7ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.7ms | Allocations: 1122)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 14:41:15 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.4ms | Allocations: 1027)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 14:41:37 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.2ms | Allocations: 1027)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 14:41:48 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.2ms | Allocations: 1027)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 14:43:34 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"name"=>"Veggies", "quantity"=>"5", "food"=>{"name"=>"Veggies", "quantity"=>"5"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[36mFood Create (1.7ms)[0m  [1m[32mINSERT INTO "foods" ("name", "quantity", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Veggies"], ["quantity", 5], ["created_at", "2020-12-12 20:43:34.971776"], ["updated_at", "2020-12-12 20:43:34.971776"]]
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+Completed 201 Created in 7ms (Views: 0.4ms | ActiveRecord: 2.6ms | Allocations: 2494)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 14:43:34 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.4ms | Allocations: 1129)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 14:44:44 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms | Allocations: 1128)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 14:44:52 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.2ms | Allocations: 1129)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 14:44:55 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"name"=>"", "quantity"=>0, "food"=>{"name"=>"", "quantity"=>0}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[36mFood Create (0.4ms)[0m  [1m[32mINSERT INTO "foods" ("name", "quantity", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", ""], ["quantity", 0], ["created_at", "2020-12-12 20:44:55.425692"], ["updated_at", "2020-12-12 20:44:55.425692"]]
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+Completed 201 Created in 6ms (Views: 0.5ms | ActiveRecord: 1.1ms | Allocations: 2495)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 14:44:55 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms | Allocations: 1230)
+
+
+Started GET "/favicon.ico" for ::1 at 2020-12-12 14:45:03 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-12-12 14:45:06 -0600
+Processing by FoodsController#index as HTML
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms | Allocations: 1227)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 14:45:14 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.4ms | Allocations: 1230)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 14:46:25 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms | Allocations: 1230)
+
+
+Started GET "/" for ::1 at 2020-12-12 14:46:55 -0600
+Processing by FoodsController#index as HTML
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.3ms | Allocations: 1228)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 14:46:59 -0600
+Processing by FoodsController#index as HTML
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms | Allocations: 1228)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 14:47:06 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.4ms | Allocations: 1230)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 14:58:56 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"name"=>"Fish", "quantity"=>"2", "food"=>{"name"=>"Fish", "quantity"=>"2"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[36mFood Create (1.0ms)[0m  [1m[32mINSERT INTO "foods" ("name", "quantity", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Fish"], ["quantity", 2], ["created_at", "2020-12-12 20:58:56.856077"], ["updated_at", "2020-12-12 20:58:56.856077"]]
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+Completed 201 Created in 5ms (Views: 0.4ms | ActiveRecord: 1.5ms | Allocations: 2517)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 14:58:56 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.4ms | Allocations: 1404)
+
+
+Started DELETE "/foods/32" for ::1 at 2020-12-12 14:59:00 -0600
+Processing by FoodsController#destroy as */*
+  Parameters: {"id"=>"32"}
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = $1 LIMIT $2[0m  [["id", 32], ["LIMIT", 1]]
+  ↳ app/controllers/foods_controller.rb:47:in `set_food'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[36mFood Destroy (0.3ms)[0m  [1m[31mDELETE FROM "foods" WHERE "foods"."id" = $1[0m  [["id", 32]]
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+Completed 204 No Content in 5ms (ActiveRecord: 1.7ms | Allocations: 2434)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 14:59:00 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.2ms | Allocations: 1230)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 14:59:02 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"name"=>"", "quantity"=>0, "food"=>{"name"=>"", "quantity"=>0}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[36mFood Create (0.4ms)[0m  [1m[32mINSERT INTO "foods" ("name", "quantity", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", ""], ["quantity", 0], ["created_at", "2020-12-12 20:59:02.372820"], ["updated_at", "2020-12-12 20:59:02.372820"]]
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+Completed 201 Created in 5ms (Views: 0.4ms | ActiveRecord: 1.4ms | Allocations: 2493)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 14:59:02 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms | Allocations: 1331)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 14:59:08 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.4ms | Allocations: 1331)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 14:59:14 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.6ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.6ms | Allocations: 1331)
+
+
+Started DELETE "/foods/34" for ::1 at 2020-12-12 14:59:14 -0600
+Processing by FoodsController#destroy as */*
+  Parameters: {"id"=>"34"}
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = $1 LIMIT $2[0m  [["id", 34], ["LIMIT", 1]]
+  ↳ app/controllers/foods_controller.rb:47:in `set_food'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[36mFood Destroy (0.3ms)[0m  [1m[31mDELETE FROM "foods" WHERE "foods"."id" = $1[0m  [["id", 34]]
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+Completed 204 No Content in 4ms (ActiveRecord: 1.0ms | Allocations: 2407)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 14:59:14 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.2ms | Allocations: 1230)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 15:03:47 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.3ms | Allocations: 1230)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 15:04:37 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"name"=>"Salad", "quantity"=>"3", "food"=>{"name"=>"Salad", "quantity"=>"3"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[36mFood Create (0.4ms)[0m  [1m[32mINSERT INTO "foods" ("name", "quantity", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Salad"], ["quantity", 3], ["created_at", "2020-12-12 21:04:37.398155"], ["updated_at", "2020-12-12 21:04:37.398155"]]
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+Completed 201 Created in 4ms (Views: 0.4ms | ActiveRecord: 0.8ms | Allocations: 2493)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 15:04:37 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms | Allocations: 1331)
+
+
+Started DELETE "/foods/35" for ::1 at 2020-12-12 15:04:39 -0600
+Processing by FoodsController#destroy as */*
+  Parameters: {"id"=>"35"}
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = $1 LIMIT $2[0m  [["id", 35], ["LIMIT", 1]]
+  ↳ app/controllers/foods_controller.rb:47:in `set_food'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[36mFood Destroy (0.4ms)[0m  [1m[31mDELETE FROM "foods" WHERE "foods"."id" = $1[0m  [["id", 35]]
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+Completed 204 No Content in 5ms (ActiveRecord: 1.7ms | Allocations: 2407)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 15:04:39 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.2ms | Allocations: 1230)
+
+
+Started DELETE "/foods/33" for ::1 at 2020-12-12 15:04:39 -0600
+Processing by FoodsController#destroy as */*
+  Parameters: {"id"=>"33"}
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = $1 LIMIT $2[0m  [["id", 33], ["LIMIT", 1]]
+  ↳ app/controllers/foods_controller.rb:47:in `set_food'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[36mFood Destroy (0.3ms)[0m  [1m[31mDELETE FROM "foods" WHERE "foods"."id" = $1[0m  [["id", 33]]
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+Completed 204 No Content in 6ms (ActiveRecord: 1.8ms | Allocations: 2407)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 15:04:39 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.2ms | Allocations: 1128)
+
+
+Started DELETE "/foods/31" for ::1 at 2020-12-12 15:04:40 -0600
+Processing by FoodsController#destroy as */*
+  Parameters: {"id"=>"31"}
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = $1 LIMIT $2[0m  [["id", 31], ["LIMIT", 1]]
+  ↳ app/controllers/foods_controller.rb:47:in `set_food'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[36mFood Destroy (0.3ms)[0m  [1m[31mDELETE FROM "foods" WHERE "foods"."id" = $1[0m  [["id", 31]]
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+Completed 204 No Content in 5ms (ActiveRecord: 1.5ms | Allocations: 2407)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 15:04:40 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.3ms | Allocations: 1027)
+
+
+Started DELETE "/foods/27" for ::1 at 2020-12-12 15:04:40 -0600
+Processing by FoodsController#destroy as */*
+  Parameters: {"id"=>"27"}
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/controllers/foods_controller.rb:47:in `set_food'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[36mFood Destroy (0.3ms)[0m  [1m[31mDELETE FROM "foods" WHERE "foods"."id" = $1[0m  [["id", 27]]
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+Completed 204 No Content in 4ms (ActiveRecord: 1.3ms | Allocations: 2407)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 15:04:40 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.2ms | Allocations: 927)
+
+
+Started DELETE "/foods/26" for ::1 at 2020-12-12 15:04:41 -0600
+Processing by FoodsController#destroy as */*
+  Parameters: {"id"=>"26"}
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/controllers/foods_controller.rb:47:in `set_food'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[36mFood Destroy (0.3ms)[0m  [1m[31mDELETE FROM "foods" WHERE "foods"."id" = $1[0m  [["id", 26]]
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+Completed 204 No Content in 5ms (ActiveRecord: 1.4ms | Allocations: 2407)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 15:04:41 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.2ms | Allocations: 825)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 15:04:45 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"name"=>"Pizza", "quantity"=>"2", "food"=>{"name"=>"Pizza", "quantity"=>"2"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[36mFood Create (0.4ms)[0m  [1m[32mINSERT INTO "foods" ("name", "quantity", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Pizza"], ["quantity", 2], ["created_at", "2020-12-12 21:04:45.149547"], ["updated_at", "2020-12-12 21:04:45.149547"]]
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+Completed 201 Created in 5ms (Views: 0.4ms | ActiveRecord: 1.2ms | Allocations: 2494)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 15:04:45 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.5ms | Allocations: 926)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 15:04:48 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"name"=>"Banana", "quantity"=>"5", "food"=>{"name"=>"Banana", "quantity"=>"5"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[36mFood Create (0.3ms)[0m  [1m[32mINSERT INTO "foods" ("name", "quantity", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Banana"], ["quantity", 5], ["created_at", "2020-12-12 21:04:48.803767"], ["updated_at", "2020-12-12 21:04:48.803767"]]
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+Completed 201 Created in 5ms (Views: 0.4ms | ActiveRecord: 1.2ms | Allocations: 2493)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 15:04:48 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms | Allocations: 1027)
+
+
+Started DELETE "/foods/36" for ::1 at 2020-12-12 15:04:50 -0600
+Processing by FoodsController#destroy as */*
+  Parameters: {"id"=>"36"}
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = $1 LIMIT $2[0m  [["id", 36], ["LIMIT", 1]]
+  ↳ app/controllers/foods_controller.rb:47:in `set_food'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[36mFood Destroy (0.3ms)[0m  [1m[31mDELETE FROM "foods" WHERE "foods"."id" = $1[0m  [["id", 36]]
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+Completed 204 No Content in 4ms (ActiveRecord: 1.4ms | Allocations: 2407)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 15:04:50 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.2ms | Allocations: 926)
+
+
+Started DELETE "/foods/37" for ::1 at 2020-12-12 15:04:51 -0600
+Processing by FoodsController#destroy as */*
+  Parameters: {"id"=>"37"}
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = $1 LIMIT $2[0m  [["id", 37], ["LIMIT", 1]]
+  ↳ app/controllers/foods_controller.rb:47:in `set_food'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[36mFood Destroy (0.4ms)[0m  [1m[31mDELETE FROM "foods" WHERE "foods"."id" = $1[0m  [["id", 37]]
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+Completed 204 No Content in 5ms (ActiveRecord: 1.4ms | Allocations: 2407)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 15:04:51 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.2ms | Allocations: 825)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 15:05:17 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.4ms | Allocations: 825)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 15:06:23 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"name"=>"Pizza", "quantity"=>"1", "food"=>{"name"=>"Pizza", "quantity"=>"1"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[36mFood Create (0.4ms)[0m  [1m[32mINSERT INTO "foods" ("name", "quantity", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Pizza"], ["quantity", 1], ["created_at", "2020-12-12 21:06:23.537918"], ["updated_at", "2020-12-12 21:06:23.537918"]]
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+Completed 201 Created in 5ms (Views: 0.3ms | ActiveRecord: 1.3ms | Allocations: 2493)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 15:06:23 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.3ms | Allocations: 926)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 15:11:19 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.2ms | Allocations: 926)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 15:14:40 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.4ms | Allocations: 926)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 15:14:43 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.3ms | Allocations: 927)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 15:16:22 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms | Allocations: 926)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 15:16:34 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.2ms | Allocations: 926)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 15:19:14 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.2ms | Allocations: 926)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 15:21:32 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms | Allocations: 926)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 15:21:57 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"name"=>"Pizza", "quantity"=>"4", "food"=>{"name"=>"Pizza", "quantity"=>"4"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[36mFood Create (0.3ms)[0m  [1m[32mINSERT INTO "foods" ("name", "quantity", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Pizza"], ["quantity", 4], ["created_at", "2020-12-12 21:21:57.495036"], ["updated_at", "2020-12-12 21:21:57.495036"]]
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+Completed 201 Created in 5ms (Views: 0.4ms | ActiveRecord: 0.8ms | Allocations: 2493)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 15:21:57 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.2ms | Allocations: 1027)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 15:22:02 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.4ms | Allocations: 1028)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 15:33:07 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.9ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.9ms | Allocations: 1123)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 15:33:42 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.2ms | Allocations: 1027)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 15:35:16 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.3ms | Allocations: 1027)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 15:44:57 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.6ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.6ms | Allocations: 1122)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 15:45:21 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.3ms | Allocations: 1027)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 15:49:23 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.3ms | Allocations: 1027)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 15:50:53 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.4ms | Allocations: 1027)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 15:51:08 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"name"=>"Bananas", "quantity"=>"3", "food"=>{"name"=>"Bananas", "quantity"=>"3"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[36mFood Create (0.7ms)[0m  [1m[32mINSERT INTO "foods" ("name", "quantity", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Bananas"], ["quantity", 3], ["created_at", "2020-12-12 21:51:08.636950"], ["updated_at", "2020-12-12 21:51:08.636950"]]
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+Completed 201 Created in 5ms (Views: 0.3ms | ActiveRecord: 1.4ms | Allocations: 2494)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 15:51:08 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.3ms | Allocations: 1128)
+
+
+Started DELETE "/foods/40" for ::1 at 2020-12-12 15:51:10 -0600
+Processing by FoodsController#destroy as */*
+  Parameters: {"id"=>"40"}
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = $1 LIMIT $2[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/foods_controller.rb:47:in `set_food'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[36mFood Destroy (0.3ms)[0m  [1m[31mDELETE FROM "foods" WHERE "foods"."id" = $1[0m  [["id", 40]]
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+Completed 204 No Content in 5ms (ActiveRecord: 1.7ms | Allocations: 2434)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 15:51:10 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.2ms | Allocations: 1027)
+
+
+Started DELETE "/foods/39" for ::1 at 2020-12-12 15:51:10 -0600
+Processing by FoodsController#destroy as */*
+  Parameters: {"id"=>"39"}
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = $1 LIMIT $2[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/foods_controller.rb:47:in `set_food'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[36mFood Destroy (0.3ms)[0m  [1m[31mDELETE FROM "foods" WHERE "foods"."id" = $1[0m  [["id", 39]]
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+Completed 204 No Content in 4ms (ActiveRecord: 1.2ms | Allocations: 2407)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 15:51:10 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.2ms | Allocations: 926)
+
+
+Started DELETE "/foods/38" for ::1 at 2020-12-12 15:51:11 -0600
+Processing by FoodsController#destroy as */*
+  Parameters: {"id"=>"38"}
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = $1 LIMIT $2[0m  [["id", 38], ["LIMIT", 1]]
+  ↳ app/controllers/foods_controller.rb:47:in `set_food'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[36mFood Destroy (0.3ms)[0m  [1m[31mDELETE FROM "foods" WHERE "foods"."id" = $1[0m  [["id", 38]]
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+Completed 204 No Content in 5ms (ActiveRecord: 1.7ms | Allocations: 2407)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 15:51:11 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.2ms | Allocations: 825)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 15:51:16 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"name"=>"Pizza", "quantity"=>"1", "food"=>{"name"=>"Pizza", "quantity"=>"1"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[36mFood Create (0.3ms)[0m  [1m[32mINSERT INTO "foods" ("name", "quantity", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Pizza"], ["quantity", 1], ["created_at", "2020-12-12 21:51:16.226518"], ["updated_at", "2020-12-12 21:51:16.226518"]]
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+Completed 201 Created in 4ms (Views: 0.3ms | ActiveRecord: 0.7ms | Allocations: 2493)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 15:51:16 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.2ms | Allocations: 926)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 15:51:19 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"name"=>"Banana", "quantity"=>"3", "food"=>{"name"=>"Banana", "quantity"=>"3"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[36mFood Create (0.4ms)[0m  [1m[32mINSERT INTO "foods" ("name", "quantity", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Banana"], ["quantity", 3], ["created_at", "2020-12-12 21:51:19.724260"], ["updated_at", "2020-12-12 21:51:19.724260"]]
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+Completed 201 Created in 6ms (Views: 0.4ms | ActiveRecord: 1.3ms | Allocations: 2493)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 15:51:19 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.2ms | Allocations: 1027)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 15:51:26 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"name"=>"Oranges", "quantity"=>"3", "food"=>{"name"=>"Oranges", "quantity"=>"3"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[36mFood Create (0.3ms)[0m  [1m[32mINSERT INTO "foods" ("name", "quantity", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Oranges"], ["quantity", 3], ["created_at", "2020-12-12 21:51:26.861537"], ["updated_at", "2020-12-12 21:51:26.861537"]]
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+Completed 201 Created in 5ms (Views: 0.4ms | ActiveRecord: 1.2ms | Allocations: 2495)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 15:51:26 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.2ms | Allocations: 1128)
+
+
+Started DELETE "/foods/43" for ::1 at 2020-12-12 15:51:27 -0600
+Processing by FoodsController#destroy as */*
+  Parameters: {"id"=>"43"}
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = $1 LIMIT $2[0m  [["id", 43], ["LIMIT", 1]]
+  ↳ app/controllers/foods_controller.rb:47:in `set_food'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[36mFood Destroy (0.3ms)[0m  [1m[31mDELETE FROM "foods" WHERE "foods"."id" = $1[0m  [["id", 43]]
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+Completed 204 No Content in 4ms (ActiveRecord: 1.4ms | Allocations: 2407)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 15:51:27 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.2ms | Allocations: 1027)
+
+
+Started DELETE "/foods/42" for ::1 at 2020-12-12 15:51:28 -0600
+Processing by FoodsController#destroy as */*
+  Parameters: {"id"=>"42"}
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = $1 LIMIT $2[0m  [["id", 42], ["LIMIT", 1]]
+  ↳ app/controllers/foods_controller.rb:47:in `set_food'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[36mFood Destroy (0.3ms)[0m  [1m[31mDELETE FROM "foods" WHERE "foods"."id" = $1[0m  [["id", 42]]
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+Completed 204 No Content in 5ms (ActiveRecord: 1.6ms | Allocations: 2407)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 15:51:28 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.2ms | Allocations: 926)
+
+
+Started DELETE "/foods/41" for ::1 at 2020-12-12 15:51:28 -0600
+Processing by FoodsController#destroy as */*
+  Parameters: {"id"=>"41"}
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = $1 LIMIT $2[0m  [["id", 41], ["LIMIT", 1]]
+  ↳ app/controllers/foods_controller.rb:47:in `set_food'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[36mFood Destroy (0.3ms)[0m  [1m[31mDELETE FROM "foods" WHERE "foods"."id" = $1[0m  [["id", 41]]
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+Completed 204 No Content in 5ms (ActiveRecord: 1.5ms | Allocations: 2407)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 15:51:28 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.3ms | Allocations: 825)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 16:18:25 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.8ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.8ms | Allocations: 920)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 16:18:28 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"name"=>"Pizza", "quantity"=>"2", "food"=>{"name"=>"Pizza", "quantity"=>"2"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[36mFood Create (0.7ms)[0m  [1m[32mINSERT INTO "foods" ("name", "quantity", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Pizza"], ["quantity", 2], ["created_at", "2020-12-12 22:18:28.823992"], ["updated_at", "2020-12-12 22:18:28.823992"]]
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+Completed 201 Created in 5ms (Views: 0.4ms | ActiveRecord: 1.2ms | Allocations: 2494)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 16:18:28 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.2ms | Allocations: 926)
+
+
+Started DELETE "/foods/44" for ::1 at 2020-12-12 16:18:30 -0600
+Processing by FoodsController#destroy as */*
+  Parameters: {"id"=>"44"}
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = $1 LIMIT $2[0m  [["id", 44], ["LIMIT", 1]]
+  ↳ app/controllers/foods_controller.rb:47:in `set_food'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[36mFood Destroy (0.3ms)[0m  [1m[31mDELETE FROM "foods" WHERE "foods"."id" = $1[0m  [["id", 44]]
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+Completed 204 No Content in 5ms (ActiveRecord: 1.7ms | Allocations: 2434)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 16:18:30 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.3ms | Allocations: 825)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 16:19:12 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"name"=>"Pizza", "quantity"=>"2", "food"=>{"name"=>"Pizza", "quantity"=>"2"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[36mFood Create (0.3ms)[0m  [1m[32mINSERT INTO "foods" ("name", "quantity", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Pizza"], ["quantity", 2], ["created_at", "2020-12-12 22:19:12.887687"], ["updated_at", "2020-12-12 22:19:12.887687"]]
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+Completed 201 Created in 5ms (Views: 0.3ms | ActiveRecord: 0.7ms | Allocations: 2494)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 16:19:12 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.2ms | Allocations: 926)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 16:19:16 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"name"=>"Oranges", "quantity"=>"3", "food"=>{"name"=>"Oranges", "quantity"=>"3"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[36mFood Create (0.4ms)[0m  [1m[32mINSERT INTO "foods" ("name", "quantity", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Oranges"], ["quantity", 3], ["created_at", "2020-12-12 22:19:16.980992"], ["updated_at", "2020-12-12 22:19:16.980992"]]
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+Completed 201 Created in 5ms (Views: 0.3ms | ActiveRecord: 1.2ms | Allocations: 2493)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 16:19:16 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.2ms | Allocations: 1027)
+
+
+Started POST "/foods" for ::1 at 2020-12-12 16:19:20 -0600
+Processing by FoodsController#create as */*
+  Parameters: {"name"=>"Bananas", "quantity"=>"3", "food"=>{"name"=>"Bananas", "quantity"=>"3"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[36mFood Create (0.4ms)[0m  [1m[32mINSERT INTO "foods" ("name", "quantity", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Bananas"], ["quantity", 3], ["created_at", "2020-12-12 22:19:20.581268"], ["updated_at", "2020-12-12 22:19:20.581268"]]
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:16:in `create'
+Completed 201 Created in 5ms (Views: 0.4ms | ActiveRecord: 1.3ms | Allocations: 2493)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 16:19:20 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.2ms | Allocations: 1129)
+
+
+Started DELETE "/foods/47" for ::1 at 2020-12-12 16:19:21 -0600
+Processing by FoodsController#destroy as */*
+  Parameters: {"id"=>"47"}
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = $1 LIMIT $2[0m  [["id", 47], ["LIMIT", 1]]
+  ↳ app/controllers/foods_controller.rb:47:in `set_food'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[36mFood Destroy (0.3ms)[0m  [1m[31mDELETE FROM "foods" WHERE "foods"."id" = $1[0m  [["id", 47]]
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+Completed 204 No Content in 4ms (ActiveRecord: 1.5ms | Allocations: 2407)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 16:19:21 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.2ms | Allocations: 1027)
+
+
+Started DELETE "/foods/46" for ::1 at 2020-12-12 16:19:21 -0600
+Processing by FoodsController#destroy as */*
+  Parameters: {"id"=>"46"}
+  [1m[36mFood Load (0.3ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = $1 LIMIT $2[0m  [["id", 46], ["LIMIT", 1]]
+  ↳ app/controllers/foods_controller.rb:47:in `set_food'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[36mFood Destroy (0.3ms)[0m  [1m[31mDELETE FROM "foods" WHERE "foods"."id" = $1[0m  [["id", 46]]
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+Completed 204 No Content in 4ms (ActiveRecord: 1.0ms | Allocations: 2407)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 16:19:21 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.2ms | Allocations: 926)
+
+
+Started DELETE "/foods/45" for ::1 at 2020-12-12 16:19:22 -0600
+Processing by FoodsController#destroy as */*
+  Parameters: {"id"=>"45"}
+  [1m[36mFood Load (0.5ms)[0m  [1m[34mSELECT "foods".* FROM "foods" WHERE "foods"."id" = $1 LIMIT $2[0m  [["id", 45], ["LIMIT", 1]]
+  ↳ app/controllers/foods_controller.rb:47:in `set_food'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[36mFood Destroy (0.3ms)[0m  [1m[31mDELETE FROM "foods" WHERE "foods"."id" = $1[0m  [["id", 45]]
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/foods_controller.rb:41:in `destroy'
+Completed 204 No Content in 5ms (ActiveRecord: 1.7ms | Allocations: 2407)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 16:19:22 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.2ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.2ms | Allocations: 825)
+
+
+Started GET "/foods" for ::1 at 2020-12-12 16:20:22 -0600
+Processing by FoodsController#index as */*
+  [1m[36mFood Load (0.4ms)[0m  [1m[34mSELECT "foods".* FROM "foods"[0m
+  ↳ app/controllers/foods_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.4ms | Allocations: 825)
+
+

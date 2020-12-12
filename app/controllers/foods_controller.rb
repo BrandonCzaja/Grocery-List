@@ -8,10 +8,6 @@ class FoodsController < ApplicationController
     render json: @foods
   end
 
-  # GET /foods/1
-  def show
-    render json: @food
-  end
 
   # POST /foods
   def create
@@ -23,6 +19,13 @@ class FoodsController < ApplicationController
       render json: @food.errors, status: :unprocessable_entity
     end
   end
+
+  # GET /foods/1
+  def show
+    render json: @food
+  end
+
+
 
   # PATCH/PUT /foods/1
   def update
@@ -38,7 +41,7 @@ class FoodsController < ApplicationController
     @food.destroy
   end
 
-  private
+  private 
     # Use callbacks to share common setup or constraints between actions.
     def set_food
       @food = Food.find(params[:id])
@@ -46,6 +49,6 @@ class FoodsController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def food_params
-      params.require(:food).permit(:name, :quantity)
+      params.require(:food).permit( :name, :quantity)
     end
 end
